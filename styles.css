@@ -1,0 +1,66 @@
+body {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+/* navigation section */
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-weight: bolder;
+}
+
+/* banner section */
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  background-color: #834d35;
+  color: white;
+  margin-bottom: 0;
+  letter-spacing: 0.3rem;
+}
+
+#banner-section h2 {
+  margin-top: 0;
+}
+
+/* activities section */
+
+#activities-section {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 2rem;
+}
+
+#activities-section .activity {
+  /* padding: 2rem; */
+  border: 1px solid #834d35;
+  min-height: 325px;
+}
+
+/* testimonial section*/
+#testimonial p {
+  text-align: center;
+}
+
+/* footer section*/
+footer > p {
+  padding-left: 2rem;
+  font-size: 0.9rem;
+  color: darkgray;
+  padding-top: 4rem;
+}
